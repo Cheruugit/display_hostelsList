@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>external hostels</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-XOniMVevKi28IrrSMj4E67HlYAJ2iZzzd9gS1jS1zzvJmD99tMZxREPe4mIopJmYcQ26oGdS9t+Izg5y5ST1Bw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+
+        .row{
+            display:block;
+        }
+        .wifi-icon {
+    font-size: 24px;
+    color: #0080ff;
+  }
+        .contain{
+            height:200px;
+            width: 700px;
+            border:2px;
+            border-radius:1px solid rgb(26, 21, 21);
+            margin: auto;
+            position: relative;
+            padding: 10px;
+        }
+        .left{
+          width: 35%;
+          float: left;
+         }
+         .right{
+          width: 60%;
+         float: right;
+         } 
+         .min{
+            align-items: center;
+          justify-content: center;
+          width: 45%;
+          float: left;
+         
+         }
+         .vertical{
+            border-left: 1px solid gray;
+            height: 120px;
+            position: absolute;
+            left:70%;
+         }
+         .minor{
+          width: 45%;
+         float: right;
+         } 
+         .btn {
+  width: 140px;
+  height: 50px;
+  background: linear-gradient(to top, #00154c, #12376e, #23487f);
+  color: #fff;
+  border-radius: 40px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+.btn span {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: top 0.5s;
+}
+
+.btn-text-one {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+
+
+.btn:hover .btn-text-one {
+  top: -100%;
+}
+bigs{
+  border: 1px solid black;
+  padding: 10px;
+  background-color: white;
+  width: 200px;
+  height: 100px;
+}
+
+        </style>
+        <script src="https://fontawesome.com/icons/wifi " > </script>
+        <script>
+            function toggleContent() {
+          var x = document.getElementById("myContent");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+        
+          </script>
+          <script>
+          var myButton = document.getElementById("myButton");
+
+            myButton.addEventListener("click", showDialogBox);
+            function showDialogBox() {
+                var dialogBox = document.createElement("bigs");
+                dialogBox.innerHTML = "This is my dialog box!";
+                document.body.appendChild(dialogBox);
+              }
+              </script>
+           
+</head>
+<body>
+<p> We would like to recommend a few hostels that offer discounted rates and are located within walking distance <br> to and from RVTTI institute.
+        
+        We have provided several options with different pricing to <br> suit your pocket.See the list below. 
+        We encourage you to visit the websites and <br>preferrably speak directly to the manager 
+        of your preferred hostel to make reservations.</p>
+       
+       <p>List of hostels 2023 </p>
+       
+        </div>
+   
+      
+            <div class="contain">
+                <div class="left"> 
+                    <img src="imgs/Hostel.png" alt="hostel image" height="200px" width="100%">
+                </div>
+                <div class="right">
+                    <h2>1. Pearl Hostel</h2>
+                    <div class="min"> 
+                        
+                        <button onclick="toggleContent()" class="btn">
+                            <span class="btn-text-one">View details</span>
+                           
+                        </button> 
+                        <div id="myContent" style="display:none;">
+                            Single 3000<br> Double 4000<br> Bedsitter 5000 <br>two bedroom 7000
+                          </div>
+                    </div>
+                    
+                    <div class="vertical"></div>
+            
+                    <div class="minor">  
+        
+               15 minutes walk to school
+               
+               Stella Arusei (Manager) +254733456789 website: pearlshostelke.com Email:info@pearlho
+               </div>
+                </div>
+               </div>
+               <div class="contain">
+                <div class="left"> 
+                    <img src="imgs/Inside-two-bedroomed-room.jpeg" alt="hostel image" height="200px" width="100%">
+                </div>
+                <div class="right"> 
+                    <h2>2. Bowin Hostel</h2> 
+                    <div class="min"> 
+                        <button id="myButton">Click me!</button>
+                        <button class="btn">
+                            <span class="btn-text-one">View details</span>
+                        
+                        </button>      
+                        Single 3000 Double 4000 Bedsitter 5500  
+                    </div>
+                    
+                    <div class="vertical"></div>
+            
+                    <div class="minor"> 
+              
+              12 minutes walk to school
+              
+              kelvin Mwangi(Manager) +254724456789 website: bowinshostelke.com Email:bowinslhostel@gmail.com
+              </div></div>
+               </div>
+              <div class="contain">
+                <div class="left"> 
+                    <img src="imgs/a0fac9e7545040b8fa1ae7ba1b328d2a.jpg" alt="hostel image" height="200px" width="100%">
+                </div>
+                <div class="right"> 
+                    <h2>3. Shekin Hostel</h2> 
+                    <div class="min"> 
+                        
+                        <button class="btn">
+                            <span class="btn-text-one">View details</span>
+                            
+                        </button> 
+                        Single 4000 Double 5000 Bedsitter 7000    
+                    </div>
+                    
+                    <div class="vertical"></div>
+            
+                    <div class="minor">   
+         
+        5 minutes walk to school
+        
+        Brian Kipkogey (Manager) +254732453871 website: shekinhostelke.com Email:shekinhostel!@gmail.com
+        </div>
+                </div>
+              </div>
+        <div class="contain"> 
+            <div class="left"> 
+                <img src="imgs/98343ee76493cd6d83fd234b94c7bd7e38996cd9.webp" alt="hostel image" height="200px" width="100%">
+            </div>
+            <div class="right">  
+                <h2>4. Mattias Hostel</h2> 
+        <div class="min"> 
+            <button class="btn">
+                <span class="btn-text-one">View details</span>
+                
+            </button> 
+            Single 3200 Double 4200two bedroom 7000 
+        </div>
+        
+        <div class="vertical"></div>
+
+        <div class="minor">  
+     Mattias Hostel
+    10 minutes walk to school
+    
+    Mercy Cheruto(Manager) +254736578435 website: pearlshostelke.com Email:mattias19hostel@gmail.com
+    </div></div>
+        </div>
+    <div class="contain">
+        <div class="left"> 
+            <img src="imgs/a5669179e5745e3f23d8a527542e829a.png" alt="hostel image" height="200px" width="100%">
+        </div>
+        <div class="right"> 
+            <h2>5.  Venus Hostel</h2> 
+        <div class="min"> 
+            <button class="btn">
+                <span class="btn-text-one">View details</span>
+                
+            </button>   
+            Single 3500 One Bedroom 5000two bedroom 7000
+        </div>
+        
+        <div class="vertical"></div>
+
+        <div class="minor"> 
+
+   10 minutes walk to school
+   
+   Shaniqwa nyachae(Manager) +254785724149 website: pearlshostelke.com Email:venushostel@gmail.com
+   </div>
+        </div>
+    </div>
+   <div class="contain">
+    <div class="left"> 
+        <img src="imgs/R.jpeg" alt="hostel image" height="200px" width="100%">
+    </div>
+    <div class="right"> 
+        <h2>6. Shatom Hostel</h2> 
+        <div class="min"> 
+            <button class="btn">
+                <span class="btn-text-one">View details</span>
+                
+            </button> 
+            Single 3500 Double 4500 Bedsitter 5500 two bedroom 8000    
+        </div>
+        
+        <div class="vertical"></div>
+
+        <div class="minor"> 
+
+8 minutes walk to school
+
+Kelvin Oindo(Manager) +254778312765 website: shatomhostelke.com Email:shatomhostel43@gmail.com
+<i class="fas fa-wifi">Free Wi-Fi</i>
+        </div>
+</div>
+   </div>
+<div class="contain">
+    <div class="left"> 
+        <img src="imgs/getlstd-property-photo.jpg" alt="hostel image" height="200px" width="100%">
+    </div>
+    <div class="right">
+        <h2>7. Bethany Hostel</h2> 
+        <div class="min"> 
+            <button class="btn">
+                <span class="btn-text-one">View details</span>
+                
+            </button> 
+            Single 4500 Double 6000 Bedsitter 8000 two bedroom 10,000
+        </div>
+        <div class="vertical"></div>
+        <div class="minor"> 
+     
+4 minutes walk to school
+Contact<br> 
+Esther Wakasi(Manager) +254722673421 website: bethanyhostelke.com Email:bethany@gmail.com
+        </div>
+</div>
+</div>
+</div>         
+</body>
+
+</html>
